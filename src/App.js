@@ -1,8 +1,9 @@
 import React from 'react';
 // import Hello from './Hello';
-import Hello_1 from './Hello';
+// import Hello_1 from './Hello';
 import './App.css';
-import Wrapper from './Wrapper';
+// import Wrapper from './Wrapper';
+import Counter from './Counter';
 
 // //JSX사용법
 // function App() {
@@ -29,16 +30,25 @@ import Wrapper from './Wrapper';
 // export default App;
 
 //porps
-function App_1() {
+// function App_1() {
+//   return ( 
+//     <Wrapper> {/*Hello_1컴포넌트 두개가 레퍼 안에 위치*/}
+//     <Hello_1 name="react" color="red" isSpecial={true}/>  {/*조건부렌더링 true 생략하면 true*/}
+//     <Hello_1 color="pink" />
+//     </Wrapper>
+//   );
+// }
+
+// export default App_1;
+
+//Counter(버튼 이벤트 설정)
+function App_2() {
   return ( 
-    <Wrapper> {/*Hello_1컴포넌트 두개가 레퍼 안에 위치*/}
-    <Hello_1 name="react" color="red" isSpecial={true}/>  {/*조건부렌더링 true 생략하면 true*/}
-    <Hello_1 color="pink" />
-    </Wrapper>
+    <Counter />
+
   );
 }
 
-export default App_1;
-
+export default App_2;
 
 
