@@ -3,7 +3,9 @@ import React from 'react';
 // import Hello_1 from './Hello';
 import './App.css';
 // import Wrapper from './Wrapper';
-import Counter from './Counter';
+// import Counter from './Counter';
+import InputSample from './inputSample';
+
 
 // //JSX사용법
 // function App() {
@@ -26,8 +28,8 @@ import Counter from './Counter';
 //   </> //리액트에서는 태그는 꼭 당혀야 한다
 //   );
 // }
-
 // export default App;
+
 
 //porps
 // function App_1() {
@@ -38,17 +40,27 @@ import Counter from './Counter';
 //     </Wrapper>
 //   );
 // }
-
 // export default App_1;
 
+
 //Counter(버튼 이벤트 설정)
-function App_2() {
+// function App_2() {
+//   return ( 
+//     <Counter />
+
+//   );
+// }
+// export default App_2;
+
+
+
+//Input
+function App_3() {
   return ( 
-    <Counter />
+    <InputSample />
 
   );
 }
-
-export default App_2;
+export default App_3;
 
 
