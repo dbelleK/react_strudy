@@ -32,7 +32,7 @@ import Wrapper from './Wrapper';
 function App_1() {
   return ( 
     <Wrapper> {/*Hello_1컴포넌트 두개가 레퍼 안에 위치*/}
-    <Hello_1 name="react" color="red" />
+    <Hello_1 name="react" color="red" isSpecial={true}/>  {/*조건부렌더링 true 생략하면 true*/}
     <Hello_1 color="pink" />
     </Wrapper>
   );

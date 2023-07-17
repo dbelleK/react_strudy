@@ -16,11 +16,20 @@ import React from 'react'; //리엑트를 불러와서 사용하겠다
 // }
 
 // props구조분해
-function Hello_1({color, name}){
-    return <div style={{
-        // color:color
+function Hello_1({color, name, isSpecial}){
+    return (
+    <div style={{
         color
-    }}>안녕하세요 {name}</div>
+    }}>
+      {/* false일때 0 일때는 0도 나타남 */}
+      {/* {isSpecial ? <b>*</b> : null} */} 
+
+      {/* false일때 이 결과물이 false이기때문에 아무것도 나타나지 않게됨 */}
+      {isSpecial && <b>*</b>} 
+
+      안녕하세요 {name}
+    </div>
+);
 }
 
 //특정값을 빠트렸을 때 기본으로 사용할 값
