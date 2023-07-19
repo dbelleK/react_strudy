@@ -9,4 +9,5 @@ function CreateUser({username, email, onChange, onCreate}){
         </div>
     );
 }
-export default CreateUser;
+export default CreateUser; //최적화
+// export default React.momo(CreateUser); //최적화
